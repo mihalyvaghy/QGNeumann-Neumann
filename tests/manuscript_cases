@@ -1,0 +1,6 @@
+python3 -m tests.star --mesh 13 --maxiter 15 --plots l2 h1 nk time
+python3 -m tests.ladder --mesh 13 --maxiter 35 --plots l2 h1 nk time
+python3 -m tests.windmill_inc_cliques --mesh 13 --maxiter 17 --plots l2 h1 nk time
+python3 -m tests.windmill_inc_size --mesh 13 --maxiter 17 --plots l2 h1 nk time
+python3 -m tests.windmill_inc_mesh --maxiter 17 --plots l2 h1 nk time
+python3 -m tests.hexagon --mesh 13 --maxiter 80 --plots l2 h1 nk time
